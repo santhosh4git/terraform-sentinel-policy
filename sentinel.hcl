@@ -1,5 +1,5 @@
 policy "check-terraform-version" {
-    source            = "./check-tfversion.sentinel"        
+    source            = "./check-tf-version.sentinel"        
     enforcement_level = "hard-mandatory"
 }
 
